@@ -5,7 +5,7 @@
    TEMPLATE NAME    : 	PixelGreen
    TEMPLATE CODE    : 	S-0010
    VERSION          :   1.3
-   LAST MODIFIED    :   January 19, 2010
+   LAST MODIFIED    :  sidebox January 19, 2010
 
 ------------------------------------------------------- */
  
@@ -342,6 +342,13 @@ input.button {
 	width: 63%;	
 	margin: 0 0 10px 0; padding: 0;	
 }
+
+#mainwide {
+	float: left;
+	width: 100%;	
+	margin: 0 0 10px 0; padding: 0;	
+}
+
 #main h1 {
 	padding: 10px 0px 0px 5px;
 	margin: 0 0 0 10px;
