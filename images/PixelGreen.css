@@ -29,10 +29,11 @@ a:link, a:visited { background: inherit; color: #0000CD; text-decoration: none; 
 a:hover { background: inherit; color: #0000CD; text-decoration: underline; }
 
 /* headers */
-h1, h2, h3 { font: bold 1em 'Trebuchet MS', Tahoma, Sans-serif; }
+h1, h2, h3, h4 { font: bold 1em 'Trebuchet MS', Tahoma, Sans-serif; }
 h1 { font-size: 1.5em; color: #DC143C; }
 h2 { font-size: 1.2em; text-transform: uppercase; }
 h3 { font-size: 1.2em; }
+h4 { font-size: 1.2em; color: #000; }
 
 p, h1, h2, h3 {
 	margin: 10px 15px;
