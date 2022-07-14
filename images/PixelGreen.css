@@ -240,15 +240,34 @@ input.button {
 	float: left;
 	display: block;
 	padding: 3px 12px;	
-	color: #333;
-	background-color: #F5DEB3;
+	color: #FFFFFF;
+	background-color: #4d4d4d;
 	text-decoration: none;
 	border-right: 1px solid #272727;
 }
+
 #header-content li a:hover {
-	background: #0000CD	;
-	color: #FFF;
+	background: #4d4d4d	;
+	color: #ff6600;
 }
+
+#header-content li b {
+	float: left;
+	display: block;
+	padding: 3px 12px;	
+	color: #ff6600;
+	background-color: #4d4d4d;
+	text-decoration: none;
+	border-right: 1px solid #272727;
+}
+
+
+
+#header-content li b:hover {
+	background: #4d4d4d	;
+	color: #ff6600;
+}
+
 #header-content li a#current  {
 	background: #0000CD;
 	color: #FFF;
