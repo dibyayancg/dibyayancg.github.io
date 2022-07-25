@@ -188,7 +188,7 @@ input.button {
 	  LAYOUT
 ------------------------------- */
 
-#header-content, #content, #footer-content {
+#header-content, #content, #footer-content, #top-content {
 	width: 98%;
 }
 
@@ -197,10 +197,17 @@ input.button {
 	height: 100px;
 	text-align: left;	
 }
+
 #header-content {	
 	margin: 0 auto; padding: 0;
 	position: relative;
 }
+
+#top-content {	
+	margin: 0 auto; padding: 0;
+	position: relative;
+}
+
 #header-content h1#logo {
 	position: absolute;	
 	font: bold 30px 'Trebuchet MS', Sans-serif;
@@ -235,9 +242,47 @@ input.button {
 	list-style: none;
 	margin: 0; padding: 0;		
 }
+#top-content {
+	position: relative;
+	right: -5px; top: 15px;
+	font: bolder 1.3em 'Arial', sans-serif;
+	color: #000000;
+	list-style: none;
+	margin: 0; padding: 0;
+}
+#top-content li{
+	display:inline;
+}
 #header-content li {
 	display: inline;
 }
+
+#top-content li a {
+	float: left;
+	display: block;
+	padding: 3px 12px;	
+	color: #000000;
+	background-color: none;
+	text-decoration: none;
+	border-right: none;
+}
+
+#top-content li b {
+	float: left;
+	display: block;
+	padding: 3px 12px;	
+	color: #ff6600;
+	background-color: none;
+	text-decoration: none;
+	border-right: none;
+}
+
+#top-content li a:hover {
+	background: none	;
+	color: #ff6600;
+}
+
+
 #header-content li a {
 	float: left;
 	display: block;
@@ -247,6 +292,7 @@ input.button {
 	text-decoration: none;
 	border-right: 1px solid #272727;
 }
+
 
 #header-content li a:hover {
 	background: #4d4d4d	;
@@ -353,6 +399,11 @@ input.button {
 	float: left;
 	width: 50%;	
 	margin: 0 0 10px 0; padding: 0;	
+}
+#maincenter{
+	float: center;
+	width: 75%;	
+	margin: 10px 0 10px 100px; padding: 0;	
 }
 #mainright {
 	float: right;
