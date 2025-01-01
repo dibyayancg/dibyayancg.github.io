@@ -31,7 +31,7 @@ a:hover { background: inherit; color: #0000CD; text-decoration: underline; }
 /* headers */
 h1, h2, h3, h4, h5 { font: bold 1em 'Trebuchet MS', Tahoma, Sans-serif; }
 h1 { font-size: 2em; color: #3f7f35; }
-h2 { font-size: 1.5em; text-align: center; }
+h2 { font-size: 1.5em; text-align: center; color:#4c1130 }
 h3 { font-size: 1.5em; }
 h4 { font-size: 1.5em; color: #000; }
 h5 { font-size: 1.5em; color: #000; }
@@ -339,7 +339,7 @@ input.button {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black */
+  background-color: #210; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
   font-size: 30px;
